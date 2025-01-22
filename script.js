@@ -53,12 +53,14 @@ document.addEventListener("DOMContentLoaded", function () {
     const img = document.querySelector('.toilet-image img');
     const description = document.querySelector('.toilet-description');
 
-    img.onload = function () {
-        img.classList.add('show');
-    };
-    
-    if (img.complete) {
-        img.classList.add('show');
+    if (img) {
+        img.onload = function () {
+            img.classList.add('show');
+        };
+        
+        if (img.complete) {
+            img.classList.add('show');
+        }
     }
 
     if (description) {
