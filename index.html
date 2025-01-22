@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Toilet73" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toilet73 - Магазин туалетов</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Toilet73</h1>
+        <p>Лучшие туалеты для вашего комфорта</p>
+        <div class="nav-buttons">
+            <button class="btn" onclick="window.location.href='#home'"><i class="fas fa-home"></i> Главная</button>
+            <button class="btn" onclick="window.location.href='#about'"><i class="fas fa-info-circle"></i> О нас</button>
+            <button class="btn" onclick="window.location.href='#contact'"><i class="fas fa-phone-alt"></i> Контакты</button>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <h2>О компании</h2>
+        <p>Мы - ведущий продавец высококачественных туалетов. В нашем ассортименте вы найдете модели, которые подойдут для любого интерьера. Мы гарантируем качественные товары, быструю доставку и отличный сервис!</p>
+    </section>
+    
+    <hr class="section-divider">
+
+    <section id="catalog" class="catalog">
+        <h2>Наши туалеты</h2>
+        <div class="grid">
+            <a href="toilets/toilet1.html" class="card">
+                <img src="images/toilet1.png" alt="Туалет 1">
+                <p>Модель T100</p>
+                <p class="description">Эргономичный и удобный дизайн для вашего дома.</p>
+            </a>
+            <a href="toilets/toilet2.html" class="card">
+                <img src="images/toilet2.png" alt="Туалет 2">
+                <p>Модель T200</p>
+                <p class="description">Качественная керамика и долговечность.</p>
+            </a>
+            <a href="toilets/toilet3.html" class="card">
+                <img src="images/toilet3.png" alt="Туалет 3">
+                <p>Модель T300</p>
+                <p class="description">Современные технологии для удобства.</p>
+            </a>
+            <a href="toilets/toilet4.html" class="card">
+                <img src="images/toilet4.png" alt="Туалет 4">
+                <p>Модель T400</p>
+                <p class="description">Минимализм в каждой детали.</p>
+            </a>
+            <a href="toilets/toilet5.html" class="card">
+                <img src="images/toilet5.png" alt="Туалет 5">
+                <p>Модель T500</p>
+                <p class="description">Комфорт и стиль для вашего интерьера.</p>
+            </a>
+            <a href="toilets/toilet6.html" class="card">
+                <img src="images/toilet6.png" alt="Туалет 6">
+                <p>Модель T600</p>
+                <p class="description">Удобство в каждой детали, подгонка по размеру.</p>
+            </a>
+        </div>
+    </section>
+    
+    <hr class="section-divider">
+
+    <section class="reviews">
+        <h2>Отзывы наших клиентов</h2>
+        <div id="reviewCarousel" class="carousel"></div>
+    </section>
+
+    <section class="social-buttons">
+        <a href="https://t.me/toilet73" target="_blank" class="social-btn"><i class="fab fa-telegram"></i> Наш Telegram</a>
+    </section>
+
+    <hr class="section-divider">
+
+    <footer class="footer">
+        <p>&copy; 2025 Toilet73. Все права защищены.</p>
+        <p><a href="mailto:info@toilet73.com">info@toilet73.com</a></p>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
